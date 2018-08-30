@@ -10,7 +10,8 @@
   "scripts": {
     "test": "jest",
     "clean": "rm -rf lib",
-    "compile": "yarn run clean && tsc --pretty -p ."
+    "compile": "yarn run clean && tsc --pretty -p .",
+    "format": "prettier --write 'src/**/*.{ts,tsx}'"
   },
   "jest": {
     "transform": {
@@ -29,6 +30,7 @@
   "devDependencies": {
     "@types/jest": "^23.3.1",
     "jest": "^23.5.0",
+    "prettier": "^1.14.2",
     "ts-jest": "^23.1.4",
     "typescript": "^3.0.3"
   },

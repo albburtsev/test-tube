@@ -1,5 +1,5 @@
 import { double } from './double'
 
 test('test double', () => {
-    expect(double(2)).toBe(4)
+	expect(double(2)).toBe(4)
 })
