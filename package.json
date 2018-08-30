@@ -8,9 +8,28 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "compile": "tsc --pretty -p ."
+    "test": "jest",
+    "clean": "rm -rf lib",
+    "compile": "yarn run clean && tsc --pretty -p ."
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   },
   "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "jest": "^23.5.0",
+    "ts-jest": "^23.1.4",
     "typescript": "^3.0.3"
   },
   "dependencies": {
