@@ -1,5 +1,5 @@
 {
-  "name": "test-tube",
+  "name": "test-tube-monorepo",
   "version": "0.0.1",
   "description": "Try something new here",
   "main": "./lib",
@@ -8,34 +8,13 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "jest",
-    "clean": "rm -rf lib",
-    "compile": "yarn run clean && tsc --pretty -p .",
-    "format": "prettier --write 'src/**/*.{ts,tsx}'"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest"
-    },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
+    "test": "lerna run test",
+    "format": "prettier --write 'packages/**/src/**/*.{ts,tsx}'",
+    "uninstall": "rm -rf node_modules && rm -rf packages/*/node_modules",
+    "reinstall": "yarn run uninstall && yarn"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.1",
-    "jest": "^23.5.0",
-    "prettier": "^1.14.2",
-    "ts-jest": "^23.1.4",
-    "typescript": "^3.0.3"
-  },
-  "dependencies": {
-    "@types/ramda": "^0.25.37",
-    "ramda": "^0.25.0"
+    "lerna": "^3.3.0",
+    "prettier": "^1.14.2"
   }
 }

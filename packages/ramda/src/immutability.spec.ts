@@ -40,8 +40,8 @@ test('R.assocPath', () => {
 })
 
 test('R.evolve', () => {
-    const updated = incOwnerAge(state) as State
+	const updated = incOwnerAge(state) as State
 
-    expect(updated).not.toStrictEqual(state)
+	expect(updated).not.toStrictEqual(state)
 	expect(updated.owner.age).toBe(state.owner.age + 1)
 })
