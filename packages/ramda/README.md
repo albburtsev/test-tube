@@ -8,7 +8,8 @@
  - [x] [Declarative Programming](http://randycoulman.com/blog/2016/06/14/thinking-in-ramda-declarative-programming/)
  - [x] [Pointfree Style](http://randycoulman.com/blog/2016/06/21/thinking-in-ramda-pointfree-style/)
  - [x] [Immutability and Objects](http://randycoulman.com/blog/2016/06/28/thinking-in-ramda-immutability-and-objects/)
- - [ ] [Immutability and Arrays](http://randycoulman.com/blog/2016/07/05/thinking-in-ramda-immutability-and-arrays/)
+ - [x] [Immutability and Arrays](http://randycoulman.com/blog/2016/07/05/thinking-in-ramda-immutability-and-arrays/)
+ - [ ] [Lenses](http://randycoulman.com/blog/2016/07/12/thinking-in-ramda-lenses/)
 
 ## Misc
 
