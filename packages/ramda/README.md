@@ -9,7 +9,8 @@
  - [x] [Pointfree Style](http://randycoulman.com/blog/2016/06/21/thinking-in-ramda-pointfree-style/)
  - [x] [Immutability and Objects](http://randycoulman.com/blog/2016/06/28/thinking-in-ramda-immutability-and-objects/)
  - [x] [Immutability and Arrays](http://randycoulman.com/blog/2016/07/05/thinking-in-ramda-immutability-and-arrays/)
- - [ ] [Lenses](http://randycoulman.com/blog/2016/07/12/thinking-in-ramda-lenses/)
+ - [x] [Lenses](http://randycoulman.com/blog/2016/07/12/thinking-in-ramda-lenses/)
+ - [ ] [Wrap-Up](http://randycoulman.com/blog/2016/07/19/thinking-in-ramda-wrap-up/)
 
 ## Misc
 
