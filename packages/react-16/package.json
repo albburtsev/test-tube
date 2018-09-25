@@ -1,0 +1,47 @@
+{
+  "name": "test-tube-react-16",
+  "version": "0.0.1",
+  "description": "Try React 16th new features",
+  "main": "index.js",
+  "author": "Alexander Burtsev",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "exit 0",
+    "clean": "rm -rf dist",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "dependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.2",
+    "@types/react-test-renderer": "^16.0.2",
+    "jest": "^23.6.0",
+    "react-test-renderer": "^16.5.2",
+    "ts-jest": "^23.10.1",
+    "ts-loader": "^5.2.0",
+    "typescript": "^3.0.3",
+    "webpack": "^4.20.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
