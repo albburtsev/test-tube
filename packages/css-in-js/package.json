@@ -1,0 +1,32 @@
+{
+  "name": "test-tube-css-in-js",
+  "version": "0.0.1",
+  "description": "Try Linaria and Emotion",
+  "main": "index.js",
+  "author": "Alexander Burtsev",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "exit 0",
+    "clean": "rm -rf dist",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "linaria": "^1.0.0-alpha.8",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.4",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "ts-loader": "^5.2.0",
+    "typescript": "^3.0.3",
+    "webpack": "^4.20.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  }
+}

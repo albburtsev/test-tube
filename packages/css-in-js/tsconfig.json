@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"target": "es5",
+		"moduleResolution": "node",
+		"module": "es6",
+		"sourceMap": false,
+		"allowJs": false,
+		"declaration": true,
+		"outDir": "dist",
+		"experimentalDecorators": true,
+		"skipLibCheck": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strictNullChecks": true,
+		"pretty": true,
+		"lib": ["dom", "es6", "es2017", "es2015"],
+		"types": ["node"]
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules/*"]
+}
